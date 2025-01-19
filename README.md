@@ -23,6 +23,6 @@ Töltse le a szoveg.txt és az index.html állományokat:
 >3. bekezdés: A leborulás
 >```
 7. A „tekintete azalatt” szöveget, az első bekezdésben jelölje dőltnek.
-8. A harmadik bekezdésben „A szultán” szövegeket jelölje kiemeltnek.
+8. A harmadik bekezdésben „A szultán” szövegeket jelölje erősen kiemeltnek.
 9. A HTML forráskódjában, megjegyzésbe, írja be: Vizsgafeladat
 
