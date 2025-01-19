@@ -41,6 +41,16 @@ def test_h1_element():
         assert h1_tag is not None, "Az h1 tag hiányzik."
         assert h1_tag.text == "Szoliman", "Az h1 tag tartalma nem megfelelő."
 
+def test_paragraph_elements():
+    """
+    Ellenőrzi, hogy három bekezdés van-e.
+    """
+    with open("szoliman.html", "r", encoding="utf-8") as f:
+        soup = BeautifulSoup(f, "html.parser")
+        paragraphs = soup.find_all("p")
+        h2_tags = soup.find_all("h2")
+        assert len(paragraphs) == 3, "Három bekezdés elemnek kell lennie."
+        
 def test_paragraph_elements_and_h2_elements():
     """
     Ellenőrzi, hogy három bekezdés van-e és mindegyik előtt egy h2 fejléc.
@@ -90,4 +100,3 @@ def test_html_comment():
 
 if __name__ == "__main__":
     pytest.main()
-    
