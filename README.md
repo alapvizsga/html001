@@ -1,5 +1,6 @@
 # html001 Szoliman
 
+
 * Szerző: Sallai András
 * Copyright © 2020, Sallai András
 * Szerkesztve: 2020-2024
