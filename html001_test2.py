@@ -37,13 +37,18 @@ def test_emphasized_text(html_content):
     em_text = soup.find("em")
     assert em_text and em_text.string == "tekintete azalatt", "A dőlt szöveg hibás vagy hiányzik az első bekezdésben."
 
+def test_emphasized_text(html_content):
+    soup = BeautifulSoup(html_content, "html.parser")
+    em_text = soup.find("em")
+    assert em_text and em_text.string == "tekintete azalatt", "A dőlt szöveg hibás vagy hiányzik az első bekezdésben."
+
 def test_strong_text(html_content):
     soup = BeautifulSoup(html_content, "html.parser")
     strong_texts = soup.find_all("strong")
     expected_text = "A szultán"
-    assert len(strong_texts) == 2, "Nem található két kiemelt 'A szultán' szöveg a harmadik bekezdésben."
+    assert len(strong_texts) == 2, "Nem található két erősen kiemelt 'A szultán' szöveg a harmadik bekezdésben."
     for strong in strong_texts:
-        assert strong.string == expected_text, "A kiemelt 'A szultán' szöveg hibás."
+        assert strong.string == expected_text, "Az erősen kiemelt 'A szultán' szöveg hibás."
 
 def test_comment_presence(html_content):
     assert "<!-- Vizsgafeladat -->" in html_content, "A megjegyzés nem található a forráskódban."
