@@ -1,3 +1,7 @@
+# Szerző: Englert Ervin Brunó
+# Copyright © 2025, Englert Ervin Brunó
+# Licenc: CC BY-SA 4.0
+
 import pytest
 from bs4 import BeautifulSoup
 
