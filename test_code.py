@@ -87,3 +87,7 @@ def test_html_comment():
     with open("szoliman.html", "r", encoding="utf-8") as f:
         content = f.read()
         assert "<!-- Vizsgafeladat -->" in content, "A 'Vizsgafeladat' komment hiányzik a HTML kódból."
+
+if __name__ == "__main__":
+    pytest.main()
+    
