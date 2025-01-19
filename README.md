@@ -24,5 +24,5 @@ Töltse le a szoveg.txt és az index.html állományokat:
 >```
 7. A „tekintete azalatt” szöveget, az első bekezdésben jelölje dőltnek.
 8. A harmadik bekezdésben „A szultán” szövegeket jelölje kiemeltnek.
-9. A HTML forráskódjában, megjegyzésbe, írja, a nevét és az aktuális dátumot.
+9. A HTML forráskódjában, megjegyzésbe, írja be: Vizsgafeladat
 
