@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 @pytest.fixture
 def html_content():
-    with open("index.html", "r", encoding="utf-8") as file:
+    with open("szoliman.html", "r", encoding="utf-8") as file:
         return file.read()
 
 def test_html_language(html_content):
