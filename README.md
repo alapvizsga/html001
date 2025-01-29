@@ -12,10 +12,10 @@
 3. Állítson be a szöveg előtt egyes szintű fejezetcímet, „Szoliman” tartalommal.
 4. A három bekezdést jelölje HTML elemmel, bekezdésnek.
 5. A bekezdéseknek a következő címeket adja, kettes fejezetcímmel:
->``` python linenums="1"
->1. bekezdés: A szemrehányás
->2. bekezdés: A szentkönyv
->3. bekezdés: A leborulás
+>``` code linenums="1"
+>A szemrehányás
+>A szentkönyv
+>A leborulás
 >```
 6. A „tekintete azalatt” szöveget, az első bekezdésben jelölje dőltnek.
 7. A harmadik bekezdésben „A szultán” szövegeket jelölje erősen kiemeltnek.
