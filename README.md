@@ -18,6 +18,6 @@
 >A leborulás
 >```
 6. A „tekintete azalatt” szöveget, az első bekezdésben jelölje dőltnek.
-7. A harmadik bekezdésben „A szultán” szövegeket jelölje erősen kiemeltnek.
+7. A harmadik bekezdésben „szultán” szövegeket jelölje erősen kiemeltnek.
 8. A HTML forráskódjában, megjegyzésbe, írja be: Vizsgafeladat
 9. Töltse fel a github repositoryba a szoliman.html fájlt.
