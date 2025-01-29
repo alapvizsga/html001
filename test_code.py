@@ -87,7 +87,7 @@ def test_third_paragraph_strong_emphasis():
         strong_tags = third_paragraph.find_all("strong")
         assert len(strong_tags) == 2, "Két strong tagnek kell lennie a harmadik bekezdésben."
         for strong_tag in strong_tags:
-            assert strong_tag.text == "A szultán", "A kiemelt szöveg a harmadik bekezdésben nem megfelelő."
+            assert strong_tag.text == "szultán", "A kiemelt szöveg a harmadik bekezdésben nem megfelelő."
         
 
 def test_html_comment():
